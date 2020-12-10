@@ -18,4 +18,11 @@ when we know the value we are counting will always be non-negative."
 """
 def hamming_weight(n):
     # Your code here
+    print(n)
+    print(bin(n).count('1'))
 
+hamming_weight(n = 0b00000000000000000000001000000011)
+# turn to string and count how many 1's appear
+
+# PLAN
+    # 
